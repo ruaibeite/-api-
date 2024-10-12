@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>退货申请</title>
+</head>
+<body>
+<h1>退货申请</h1>
+<form action="refund.php" method="post">
+    <label for="trxamt">退款金额（分）:</label>
+    <input type="text" id="trxamt" name="trxamt" required><br><br>
+
+    <label for="oldorderid">旧订单号:</label>
+    <input type="text" id="oldorderid" name="oldorderid"><br><br>
+    <label for="reqsn">新订单号:</label>
+    <input type="text" id="reqsn" name="reqsn" required><br><br>
+
+
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
