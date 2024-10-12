@@ -13,7 +13,7 @@ require_once 'AppUtil.php';
         $params["reqip"] = '';
         $params["reqtime"] = '';
         $params["orderid"] = '';
-        $params["agreeid"] = '795DTRsa0GRwKMgPbUfy';
+        $params["agreeid"] = '';
         $params["thpinfo"] = '';
         $params["randomstr"] ='12';
         $params["signtype"] ='RSA';
